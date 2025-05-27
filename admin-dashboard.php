@@ -1,6 +1,8 @@
 <?php
 session_start();
-if($username == ''){
+$username = $_SESSION['user'];
+$password = $_SESSION['pass'];
+if($username != 'admin'){
   header("Location: index.html");
 }
 else {
