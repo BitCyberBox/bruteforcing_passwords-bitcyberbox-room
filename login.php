@@ -9,7 +9,7 @@ if($username == 'admin'){
     header('Location: admin-dashboard.php');
   }
   else {
-    echo('Incorrect Password')
+    echo('Incorrect Password');
   }
 }
 else {
