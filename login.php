@@ -1,8 +1,8 @@
 <?php
 $username = $_GET['user'];
 $password = $_GET['pass'];
-if($username == 'admin'){
-  if($password == 'zymotic'){
+if($username == 'zymotic'){
+  if($password == 'admin'){
     session_start();
     $_SESSION['user'] = 'admin';
     $_SESSION['auth'] = 'admin';
