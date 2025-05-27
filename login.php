@@ -2,7 +2,7 @@
 $username = $_GET['user'];
 $password = $_GET['pass'];
 if($username == 'admin'){
-  if($password == 'admin'){
+  if($password == 'zymotic'){
     session_start();
     $_SESSION['user'] = 'admin';
     $_SESSION['auth'] = 'admin';
